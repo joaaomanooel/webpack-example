@@ -14,6 +14,6 @@ console.log(arr3);
 console.log(arr4);
 console.log(sum(3, 2));
 console.log(sub(3, 2));
-console.log(multiply(3, 2));
+console.log(multiply(3, 3));
 console.log(divide(3, 2));
 console.log(`Pi: ${PI}`);
