@@ -8911,6 +8911,8 @@
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_ramda__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_ramda___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_ramda__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__utils__ = __webpack_require__(2);
+
 
 
 var arr1 = [1, 1, 1, 2, 2, 3, 4, 5, 6, 6];
@@ -8921,6 +8923,50 @@ var arr4 = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0_ramda__["uniq"])(ar
 
 console.log(arr3);
 console.log(arr4);
+console.log(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__utils__["a" /* default */])(3, 2));
+console.log(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__utils__["b" /* sub */])(3, 2));
+console.log(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__utils__["c" /* multiply */])(3, 2));
+console.log(__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_1__utils__["d" /* div */])(3, 2));
+console.log('Pi: ' + __WEBPACK_IMPORTED_MODULE_1__utils__["e" /* PI */]);
+
+/***/ }),
+/* 2 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["b"] = sub;
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return mult; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return div; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return PI; });
+function sum(a, b) {
+  return a + b;
+}
+
+// named export
+// ter varios exports dentro do mesmo arquivo
+// só pode importar com o mesmo nome
+// import precisa das chavesd
+function sub(a, b) {
+  return a - b;
+}
+
+function mult(a, b) {
+  return a * b;
+}
+
+function div(a, b) {
+  return a / b;
+}
+
+var PI = 3.14;
+
+// método Principal
+// só pode ter um default por arquivo
+// importar com qualquer nome
+// não precisa de chaves para importar
+/* harmony default export */ __webpack_exports__["a"] = (sum);
+
+
 
 /***/ })
 /******/ ]);
