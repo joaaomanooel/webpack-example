@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://gitlab.com/joaaomanooel/config-webpack.git"
+    "url": "git+https://github.com/joaaomanooel/webpack-example.git"
   },
   "keywords": [],
   "author": "João Manoel Neto <joaaomanooel@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://gitlab.com/joaaomanooel/config-webpack/issues"
+    "url": "https://github.com/joaaomanooel/webpack-example/issues"
   },
-  "homepage": "https://gitlab.com/joaaomanooel/config-webpack#README",
+  "homepage": "https://github.com/joaaomanooel/webpack-example#README",
   "devDependencies": {
     "babel-core": "^6.21.0",
     "babel-loader": "^6.2.10",
