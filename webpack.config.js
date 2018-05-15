@@ -4,10 +4,15 @@ const nodeENV = process.env.NODE_ENV || 'production'
 module.exports = {
   devtool: 'source-map',
   entry: {
-    filename: './app.js'
+    filename: './src/app.js'
   },
   output: {
-    filename: './build.js'
+    filename: './dist/build.js'
+  },
+  devServer: {
+    inline: true,
+    contentBase: './src',
+    port: 3333
   },
   module: {
     loaders: [
