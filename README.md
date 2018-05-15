@@ -6,7 +6,7 @@ exemplo de configuração para webpack
 
 ### Clonando o Repositório
 
-* [git](https://git-scm.com/downloads) clone https://gitlab.com/joaaomanooel/config-webpack.git
+* [git](https://git-scm.com/downloads) clone https://github.com/joaaomanooel/webpack-example.git
 
 ### Instalando as Dependências
 
