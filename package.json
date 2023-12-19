@@ -30,6 +30,6 @@
   "dependencies": {
     "ramda": "^0.22.1",
     "react": "^16.3.2",
-    "react-dom": "^16.3.2"
+    "react-dom": "^16.3.3"
   }
 }
